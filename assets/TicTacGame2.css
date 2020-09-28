@@ -1,0 +1,61 @@
+#canvas {
+    border-radius: 5px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.border-row {
+    border-bottom: 3px solid black;
+}
+
+.border-col {
+    border-left: 3px solid black;
+}
+
+tr {
+    padding: 20px;
+}
+
+td {
+    /* border-left: 3px solid black; */
+    padding: 80px;
+}
+
+.win {
+    z-index: 1;
+    border-radius: 50%;
+    width: 900px;
+    height: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgba(8, 6, 6, 0.5)
+}
+
+.pl1 {
+    display: none;
+    color: blanchedalmond;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.pl2 {
+    display: none;
+    color: blanchedalmond;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
